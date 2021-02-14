@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=Amiri:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #3C4452;
+}
+nav{
+    height: 3.8rem;
+    width: 100%;
+    background: #2B2E39;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center
+}
+.ham{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: .3rem;
+}
+span{
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: 17px;
+}
+span::after{
+    content: '';
+    top: -9px;
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+}
+span::before{
+    content: '';
+    top: 9px;
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+}
+
+input{
+    width: 50%;
+    margin-left: 100px;
+    height: 9px;
+    border-radius: .2rem;
+    border: none;
+    background: #41434D;
+    outline: none;
+    padding: 15px;
+    color: #FFF;
+    font-size: 20px;
+}
+.user{
+    width: 25%;
+    position: absolute;
+    left: 74%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    justify-content: flex-end;
+}
+img{
+    width: 30px;
+}
+.role{
+    margin-left: 10px;
+    font-family: monospace;
+}
+.gr{
+    background: #2B2E39;
+    height: 8rem;
+    display: flex;
+    margin: auto;
+    width: 97.1%;
+    margin-top: 30px;
+    border-radius: 5px;
+    flex-direction: ;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 5px;
+}
+.gr h2{
+    margin-right: 30px;
+    margin-top: 15px;
+    font-family: 'Almarai', sans-serif;
+    height: 0;
+    color: aliceblue;
+}
+.st{
+    height: 8rem;
+    display: flex;
+    margin: auto;
+    width: 98%;
+    margin-top: 30px;
+}
+.card{
+    margin: auto;
+    width: 98%;
+    background: #2B2E39;
+    margin-top: 0;
+    height: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+}
+.txt .ne{
+    position: absolute;
+    margin-top: 15px;
+    width: 65px;
+    transition: .5s;
+    left: 3px;
+}
+.txt img{
+    position: absolute;
+    margin-top: 40px;
+    width: 45px;
+    transition: .5s;
+    left: 4px;
+}
+.txt .c{
+    position: absolute;
+    margin-top: 56px;
+    width: 45px;
+    transition: .5s;
+    left: 4px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+}
+.card h4{
+    font-family: 'Almarai', sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+}
+.card p{
+    font-size: 40px;
+    float: right;
+    top: -10px;
+    position: relative;
+    margin-right: 10px;
+    font-family: 'Almarai', sans-serif;
+}
+.card:nth-child(3){
+    height: 120px;
+}
+.news{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    left: -25px;
+    position: relative;
+}
+.news img{
+    width: 70px;
+    transition: .5s;
+    position: relative;
+    top: -10px;
+}
+.off{
+    height: 15rem;
+    background: #2B2E39;
+    margin: auto;
+    width: 98%;
+    background: #2B2E39;
+    margin-top: 19px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+.off .on{
+    height: 30px;
+    top: 5px;
+    position: relative;
+    right: 10px;
+    filter: drop-shadow(.1px .1px 0px #000);
+}
+.off h4{
+    margin-right: 20px;
+    height: 20px;
+    margin-top: 10px;
+    font-family: 'Almarai', sans-serif;
+    color: #fff;
+}
+hr{
+    width: 100%;
+    top: -3px;
+    position: relative;
+    height: 0;
+}
+.card2{
+    width: 38%;
+    right: 110%;
+    margin-right: 19px;
+    margin-top: 0;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 5px;
+    border: 2px solid #194A21;
+    position: ;
+}
+.pic{
+    width: 0%;
+    left: 61%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.pic img{
+    width: 60px;
+    height: 60px;
+}
+.she{
+    width: 0%;
+    left: 22%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.she img{
+    width: 60px;
+    height: 60px;
+}
+.sw{
+    width: 0%;
+    left: 61%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.sw img{
+    width: 60px;
+    height: 60px;
+}
+.ag{
+    width: 0%;
+    left: 21.9%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.ag img{
+    width: 60px;
+    height: 60px;
+}
+.anm p{
+    color: aliceblue;
+    font-family: 'Almarai', sans-serif;
+    margin-top: 10px;
+}
+@media screen and (min-width: 1000px){
+    .txt img{
+        width: 75px;
+        transition: .5s;
+        left: 4px;
+        margin-top: 10px;
+    }
+    .txt .ne{
+        width: 90px;
+    }
+    .txt .c{
+        width: 75px;
+        transition: .5s;
+        left: 4px;
+        margin-top: 10px;
+    }
+}
